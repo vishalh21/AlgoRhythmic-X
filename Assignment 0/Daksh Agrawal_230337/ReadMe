@@ -1,1 +1,20 @@
-Hello
+There are two notebooks, one for each Question.
+For both the questions, I have taken the S&P500 Index and Apple Stock.
+
+Q1:
+  Every day in the first (09:30) entry of S&P500, the volume was shown to be 0 while other values were present.
+  This was not the case with the Apple stock which had no 0 entries.
+  There was a significant difference between the hourly and the corresponding daily values:
+    a. The opening price for 9:30 was not the opening price for the day, similarly for the closing price.
+    b. The highs and lows of daily data are not highs and lows of any hour.
+  These differences indicate that the hourly data is raw and not adjusted like the daily data.
+  I have calculated the cumulative return over a period as the return on an investment while all the daily returns during said period are reinvested.
+  I have used the adjusted closing price for calculating the daily and cumulative returns to accommodate for splits and dividends.
+  Apple provided a 75% higher cumulative return over a 1 year period as compared to the S&P500 Index.
+  The daily returns of Apple fluctuated highly, both gaining and losing more than 4% on certain days.
+  The S&P500 Index seemed more stable, having a lower range of daily returns.
+  The trends in both seemed highly correlated, rising and falling together. However, these trends affected Apple with higher magnitude. 
+  This suggests that individual stocks like Apple respond to market effects at a higher proportional while Indices tend to be more stable.
+
+Q2:
+  
