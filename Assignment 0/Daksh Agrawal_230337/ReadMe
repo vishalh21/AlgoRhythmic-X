@@ -14,7 +14,12 @@ Q1:
   The daily returns of Apple fluctuated highly, both gaining and losing more than 4% on certain days.
   The S&P500 Index seemed more stable, having a lower range of daily returns.
   The trends in both seemed highly correlated, rising and falling together. However, these trends affected Apple with higher magnitude. 
-  This suggests that individual stocks like Apple respond to market effects at a higher proportional while Indices tend to be more stable.
+  Hence Apple has a positive beta higher than 1.0 (of S&P500).
 
 Q2:
-  
+  Friday had the highest Closing Price on Average, followed by Monday.
+  The middle of the week had lower closing prices on average although the difference was marginal. 
+  Volume traded on average was significantly higher on Friday as compared to the other week days. (I checked for volume instead of closing price at first)
+  The 7day rolling mean reflected the general trend of the closing price, with daily fluctuations comparatively smoothened out.
+  However, the graph seemed to be shifted to the right while showing the general trend as it is calculated as an average of the past 7 days' values and hence reflects trend changes later than they occur.
+  Thus simply using the rolling mean as an indicator to trigger buy/sell signals could result in missing trend reversals and hence would not make for a good strategy.
