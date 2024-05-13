@@ -22,4 +22,10 @@ Q2:
   Volume traded on average was significantly higher on Friday as compared to the other week days. (I checked for volume instead of closing price at first)
   The 7day rolling mean reflected the general trend of the closing price, with daily fluctuations comparatively smoothened out.
   However, the graph seemed to be shifted to the right while showing the general trend as it is calculated as an average of the past 7 days' values and hence reflects trend changes later than they occur.
-  Thus simply using the rolling mean as an indicator to trigger buy/sell signals could result in missing trend reversals and hence would not make for a good strategy.
+  Thus the rolling mean could be used as a simple trend indicator, with the assumption that a rising rolling mean shows an upward trend that will continue and vice versa.
+  This can be used to generate buy/sell signals, buying when the rolling mean starts increasing and selling when it starts decreasing.
+  However, simply using the rolling mean as an indicator to trigger buy/sell signals could result in missing trend reversals and hence would not make for a very good strategy.
+  We could possibly use rolling means with two different windows, one short and one long, to identify possible trend reversals.
+  If both show similar (rising or falling) trand, then this could indicate a strong continuing trend.
+  However, if one changes direction against the other, it could indicate at a possible trend reversal.
+  This could help the strategy take advantage of both the faster reaction time of a shorter window while also considering the general trend and immunity to random fluctuations that a longer window provides.
