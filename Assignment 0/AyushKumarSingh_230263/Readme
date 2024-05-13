@@ -1,0 +1,2 @@
+In Assignment 0, I have used the stock HDFC and the index used here is Bank Nifty. I created different functions to calculate the high of the stock for a day(max) and the low for the day(min). I have assumed the Bank Nifty as a stock to calculate daily return and cumulative return.
+In Question 2 stock used is IRCTC.
