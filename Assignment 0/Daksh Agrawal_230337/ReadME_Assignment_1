@@ -7,5 +7,5 @@ I have also implemented a Stop Loss to reduce the magnitude of losses and as a s
 This strategy seems to be working very well, giving minimum 20% annual return, while also giving 600% profit in 5 years on a random stock I chose.
 I have tested on various stocks and indices, including NSE stocks, for 2 and 5 year long periods, and the strategy performs consistently.
 However I am having an issue limiting the drawdowns, which sometimes rise or fall DRAMATICALLY.
-The Sharpe Ratio is also consistently above 1.5, with only one exception out of all my tests.
+The Sharpe Ratio is also consistently above 1.25, with only one exception out of all my tests.
 My strategy seems to work better over longer periods of time.
