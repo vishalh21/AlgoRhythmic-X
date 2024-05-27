@@ -1,0 +1,31 @@
+There are two notebooks, one for each Question.
+For both the questions, I have taken the S&P500 Index and Apple Stock.
+
+Q1:
+  Every day in the first (09:30) entry of S&P500, the volume was shown to be 0 while other values were present.
+  This was not the case with the Apple stock which had no 0 entries.
+  There was a significant difference between the hourly and the corresponding daily values:
+    a. The opening price for 9:30 was not the opening price for the day, similarly for the closing price.
+    b. The highs and lows of daily data are not highs and lows of any hour.
+  These differences indicate that the hourly data is raw and not adjusted like the daily data.
+  I have calculated the cumulative return over a period as the return on an investment while all the daily returns during said period are reinvested.
+  I have used the adjusted closing price for calculating the daily and cumulative returns to accommodate for splits and dividends.
+  Apple provided a 75% higher cumulative return over a 1 year period as compared to the S&P500 Index.
+  The daily returns of Apple fluctuated highly, both gaining and losing more than 4% on certain days.
+  The S&P500 Index seemed more stable, having a lower range of daily returns.
+  The trends in both seemed highly correlated, rising and falling together. However, these trends affected Apple with higher magnitude. 
+  Hence Apple has a positive beta higher than 1.0 (of S&P500).
+
+Q2:
+  Friday had the highest Closing Price on Average, followed by Monday.
+  The middle of the week had lower closing prices on average although the difference was marginal. 
+  Volume traded on average was significantly higher on Friday as compared to the other week days. (I checked for volume instead of closing price at first)
+  The 7day rolling mean reflected the general trend of the closing price, with daily fluctuations comparatively smoothened out.
+  However, the graph seemed to be shifted to the right while showing the general trend as it is calculated as an average of the past 7 days' values and hence reflects trend changes later than they occur.
+  Thus the rolling mean could be used as a simple trend indicator, with the assumption that a rising rolling mean shows an upward trend that will continue and vice versa.
+  This can be used to generate buy/sell signals, buying when the rolling mean starts increasing and selling when it starts decreasing.
+  However, simply using the rolling mean as an indicator to trigger buy/sell signals could result in missing trend reversals and hence would not make for a very good strategy.
+  We could possibly use rolling means with two different windows, one short and one long, to identify possible trend reversals.
+  If both show similar (rising or falling) trand, then this could indicate a strong continuing trend.
+  However, if one changes direction against the other, it could indicate at a possible trend reversal.
+  This could help the strategy take advantage of both the faster reaction time of a shorter window while also considering the general trend and immunity to random fluctuations that a longer window provides.
