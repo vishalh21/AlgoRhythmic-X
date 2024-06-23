@@ -1,0 +1,1 @@
+I have created my f(x) and my trading strategy and applied it on Tata Steel's stock data for 1 year.
